@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Fira Mono", monospace;
+}
+
+.fs-big {
+  font-size: 3.5rem;
+}
+
+.sep {
+  height: 4rem;
+}
