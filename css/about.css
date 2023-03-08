@@ -1,0 +1,6 @@
+.team-img {
+  height: 150px;
+  width: 150px;
+  margin-right: 1rem;
+  object-fit: cover;
+}
