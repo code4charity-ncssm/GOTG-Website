@@ -9,12 +9,332 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./css/shared.css" />
+    <link rel="stylesheet" href="./css/index.css" />
 
     <title>Gator on the Grill</title>
     <!-- Bootstrap documentation: https://getbootstrap.com/docs/5.3/getting-started/introduction/-->
   </head>
   <body>
-    <h1>menu page</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Gator on the Grill</a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form> -->
+          <div class="d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CATERING</a>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="btn bg-black text-white rounded-pill px-4 w-full"
+                >
+                  ORDER
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR GOES ABOVE -->
+
+    <section>
+      <img
+        src="./img/menu-hero.png"
+        alt="Our delicious menu"
+        style="height: 70vh; width: 100%; object-fit: cover"
+      />
+    </section>
+
+    <div class="sep"></div>
+
+    <!-- specials section -->
+
+    <div class="container-lg mt-5">
+      <h1 class="fw-bold fs-big">SPECIALS</h1>
+
+      <div class="swiper mt-5 text-center">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide food-card bg-lb p-4 mb-5">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+          <div class="swiper-slide food-card bg-lb p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+
+          <div class="swiper-slide food-card bg-lb p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+          <div class="swiper-slide food-card bg-lb p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+
+          <div class="swiper-slide food-card bg-lb p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+          <div class="swiper-slide food-card bg-lb p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+
+          <div class="swiper-slide food-card bg-lb p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+          <div class="swiper-slide food-card bg-lb p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+          <!-- ... -->
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+
+      <h1 class="fw-bold fs-big mt-5">SIDES</h1>
+
+      <div class="swiper mt-5 text-center">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide food-card bg-lb p-4 mb-5">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+          <div class="swiper-slide food-card bg-lb p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+
+          <div class="swiper-slide food-card bg-lb p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+          <div class="swiper-slide food-card bg-lb p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+
+          <div class="swiper-slide food-card bg-lb p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+          <div class="swiper-slide food-card bg-lb p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+
+          <div class="swiper-slide food-card bg-lb p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+          <div class="swiper-slide food-card bg-lb p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+          <!-- ... -->
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+
+    <div class="sep"></div>
 
     <!-- DO NOT MODIFY BELOW THIS LINE -->
     <script
@@ -32,5 +352,7 @@
       integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./js/menu.js"></script>
   </body>
 </html>
