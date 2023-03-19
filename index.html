@@ -9,12 +9,174 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/shared.css" />
+    <link rel="stylesheet" href="./css/index.css" />
 
     <title>Gator on the Grill</title>
     <!-- Bootstrap documentation: https://getbootstrap.com/docs/5.3/getting-started/introduction/-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Gator on the Grill</a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form> -->
+          <div class="d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CATERING</a>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="btn bg-black text-white rounded-pill px-4 w-full"
+                >
+                  ORDER
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR GOES ABOVE -->
+
+    <section>
+      <img
+        src="./img/Headline.png"
+        alt="Ready for a shrimp taco?"
+        style="width: 100%"
+      />
+    </section>
+
+    <div class="container-lg mt-5">
+      <h1 class="fw-bold fs-big text-center">HIGHLIGHTS OF THE MENU</h1>
+
+      <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3 text-center mt-4">
+        <div class="col">
+          <div class="food-card bg-lb p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="food-card bg-lo p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="food-card p-4 bg-gray">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="food-card bg-o p-4">
+            <img
+              src="./img/food/food1.png"
+              alt=""
+              class="img-fluid food-img rounded-circle"
+            />
+            <p class="fw-semibold fs-4 mt-2 mb-0">
+              SHRIMP <br />
+              TACO
+            </p>
+            <p class="fs-4 mt-2">$6</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sep"></div>
+
+    <!-- OUR STORY SECTION -->
+    <div
+      class="row row-cols-1 row-cols-lg-2 mt-4 gap-0 p-0 align-items-center bg-o"
+    >
+      <div class="col">
+        <img src="./img/temp_truck.png" alt="" class="img-fluid m-0" />
+      </div>
+
+      <div class="col p-4">
+        <h3 class="fw-bold fs-big">OUR STORY</h3>
+        <p class="fs-5 para-width mt-5">
+          “I introduced my wife and friends to the shrimp taco. They loved them
+          so much. We found the star of our menu.”
+        </p>
+      </div>
+    </div>
+
+    <!-- <div class="sep"></div> -->
+
+    <!-- ORDER BKG -->
+
+    <div class="order-bg"></div>
+
+    <div class="sep"></div>
 
     <!-- DO NOT MODIFY BELOW THIS LINE -->
     <script

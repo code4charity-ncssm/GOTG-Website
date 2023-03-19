@@ -5,10 +5,19 @@
   font-family: "Fira Mono", monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 .fs-big {
   font-size: 3.5rem;
 }
 
 .sep {
   height: 4rem;
+}
+
+.f {
+  border: 2px solid red;
 }
