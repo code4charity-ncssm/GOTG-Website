@@ -37,3 +37,27 @@ nav .navbar-brand {
   font-size: 1.5rem;
   font-weight: 500;
 }
+
+.bg-lb {
+  background: #9dced2;
+}
+
+.bg-lo {
+  background: #ffe9cf;
+}
+
+.bg-gray {
+  background: #bec5d6;
+}
+
+.bg-o {
+  background: #eabc86;
+}
+
+.bg-do {
+  background: #ef7e3e;
+}
+
+.iframe {
+  border-radius: 20px;
+}
