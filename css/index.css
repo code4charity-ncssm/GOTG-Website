@@ -17,3 +17,7 @@
   background: url(../img/Order.png) no-repeat center center/cover;
   height: 800px;
 }
+
+.truck-pic {
+  width: 100%;
+}
